@@ -1,0 +1,3 @@
+[run]
+omit = xliff_converter/html2xliff.py
+       xliff_converter/xliff2html.py
