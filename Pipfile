@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+name = "pypi"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.5"
+
+[packages]
+nltk = "*"
+
+[scripts]
+test="pytest --cov xliff_converter --cov-report term --cov-report html"
