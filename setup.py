@@ -8,7 +8,7 @@ setup(
     name='py-xliff-converter',
     version=__version__,
     packages=['xliff_converter'],
-    url='',
+    url='https://github.com/romanvm/py-xliff-converter',
     license='MIT',
     author='Roman Miroshnychenko',
     author_email='roman1972@gmail.com',
